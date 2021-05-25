@@ -22,7 +22,7 @@ input.onButtonPressed(Button.B, function () {
                 Enemy.delete()
                 Shoot.delete()
             }
-            basic.pause(100)
+            basic.pause(150)
         }
         Shoot.delete()
     }
@@ -33,6 +33,7 @@ let Player: game.LedSprite = null
 let Enemies = 0
 let GameStarted = 0
 let dirPlayer = 0
+basic.clearScreen()
 dirPlayer = 1
 GameStarted = 0
 Enemies = 0
