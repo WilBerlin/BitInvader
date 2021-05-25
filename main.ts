@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     if (GameStarted == 0) {
-        for (let index = 0; index <= 3; index++) {
+        for (let index = 0; index <= 2; index++) {
             basic.showNumber(3 - index)
             basic.pause(100)
         }
